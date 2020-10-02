@@ -967,3 +967,90 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+.site-header{
+	background: #333333;
+}
+.site-header a{
+	color: white;
+	outline: none;
+	text-decoration: none;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+.site-header .site-title{
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.menu-item a:hover{
+	background: #666666;
+	margin: 10px;
+}
+
+.entry-title{
+	font-size: 51px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	transition: 0.5s;
+}
+.entry-title a{
+	outline: none;
+	text-decoration: none;
+	color: #333333;
+}
+.entry-title:hover  {
+	content: '';
+	padding: 5px;
+	background: #333333;
+}
+.entry-title:hover a{
+	color: white;
+}
+
+.post-thumbnail img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	height: auto;
+	max-width: 50%;
+	transition: 0.2s;
+}
+article:hover img {
+	height: auto;
+	max-width: 55%;
+}
+
+.entry-content{
+	text-align: center;
+	position: relative;
+	top: -10px;
+	margin: 0;
+	transition: 0.5s;
+}
+
+.entry-content p{
+	margin: 0;
+	opacity: 0;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+article:hover .entry-content{
+	top: -40px;
+}
+
+article:hover .entry-content p{
+	opacity: 1;
+
+}
+
