@@ -12,6 +12,10 @@
                     <div class="content">
                         <?php the_content(); ?>
                         <?php the_terms( $post->ID, 'marque', 'Marque : ' ); ?><br>
+                        <?php the_field('dimension'); ?>
+                        <?php the_field('couleur'); ?>
+                        <?php the_field('cylindre'); ?>
+                        <?php the_field('annee_model'); ?>
                     </div>
                 </article>
             <?php endwhile; ?>
